@@ -3,7 +3,7 @@ public class prime {
         System.out.println("Prime numbers from 1 to 100:");
         for (int i = 2; i <= 100; i++) {
             if (isPrime(i)) {
-                System.out.print(i + " ");
+                System.out.print(i + " ");//set logic to display
             }
         }
     } //path for prime
