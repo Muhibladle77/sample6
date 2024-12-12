@@ -9,7 +9,7 @@ public class prime {
     } //path for prime
 
     public static boolean isPrime(int n) {
-        if (n < 2) return false;
+        if (n < 2) return false;//set condition for removing less than 2 no.
         for (int i = 2; i <= Math.sqrt(n); i++) {
             if (n % i == 0) return false;
         }
