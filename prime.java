@@ -6,7 +6,7 @@ public class prime {
                 System.out.print(i + " ");
             }
         }
-    }
+    } //path for prime
 
     public static boolean isPrime(int n) {
         if (n < 2) return false;
